@@ -44,7 +44,7 @@
                             sistem rasvjete kako u  enterijeru, tako i u bašti hotela.
                         </p>
                     </div>
-                    <button>Pogledaj detaljnije</button>
+                    <a href=""><img class="scrollbtn" src="/images/Scroll.svg" alt=""> <span> Pogledaj detaljnije</span></a>
                 </div>
             </div>
         </div>

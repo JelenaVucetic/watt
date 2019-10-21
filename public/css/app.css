@@ -21,7 +21,6 @@ html.is-animating .transition-fade {
 .transition-wipe {
     transition: 0.7s cubic-bezier(0, 0, .58, 1);
     transform: scaleX(0)
-
   }
   
 html.is-animating .transition-wipe {
@@ -121,6 +120,19 @@ html.is-animating .transition-wipe {
     font-weight: 700;
 }
 
+.scrollbtn {
+    width: 100px;
+    padding-bottom: 30px;
+}
+
+.right a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+
 @media(max-width: 680px) {
     .myNavbar {
         display: none;
@@ -163,13 +175,18 @@ html.is-animating .transition-wipe {
 }
 
 
-.newstyle {
-    height: 100%;
-    background-color: #555555;
-    border-left: 1px solid white;
+
+
+/* About Page */
+
+.test {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.test div {
     width: 200px;
-    position: fixed; 
-    right: 0;
-}   
+    height: 200px;
+    background-color: #555555;
+    margin: 50px;
+}
