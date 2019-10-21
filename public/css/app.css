@@ -1,0 +1,162 @@
+.transition-fade {
+    transition: 0.4s;
+    opacity: 1;
+  }
+  
+html.is-animating .transition-fade {
+    opacity: 0;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #555555;
+    left: 0;
+    top: 0;
+    transform: scale(0);
+    transform-origin: right;
+}
+
+.transition-wipe {
+    transition: 0.7s cubic-bezier(0, 0, .58, 1);
+    transform: scaleX(0)
+
+  }
+  
+html.is-animating .transition-wipe {
+    transform: scaleX(1);
+}
+
+/* Content of site */
+
+.content {
+    padding: 0;
+    margin: 0;
+    background-color: #222222;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;;
+    padding-right: 50px;
+}
+
+
+
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 150px
+}
+
+.myNavbar {
+    height: 100%;
+    background-color: #555555;
+    border-left: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    position: fixed; 
+    right: 0;
+}
+
+.myNavbar a {
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+    height: 100%;
+}
+.vertical {
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    margin-top: 400px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px;
+} 
+
+.typeAndService {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.typeAndService p {
+    color: #858282;
+    font-weight: 700;
+}
+
+.typeAndService h3 {
+    color: white;
+    font-weight: 700;
+}
+
+.type {
+    padding-right: 50px;
+}
+
+.service {
+    width: 163px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.hotel {
+    width: 430px;
+    float: right;
+    text-align: right;
+}
+
+.hotel h1 {
+    color: white;;
+    font-weight: 800;
+}
+
+.hotel p {
+    color: #858282;
+    font-weight: 700;
+}
+
+@media(max-width: 680px) {
+    .myNavbar {
+        display: none;
+    }
+
+    .content {
+        height: auto;
+        overflow: hidden;
+        padding: 20px;
+    }
+    img {
+        width: 300px;
+        padding-left: 80px;
+    }
+    .hotel {
+        width: 300px;     
+    }
+
+    .main {
+        margin-top: 100px;
+    }
+
+
+}
+
+
+@media(max-width: 1500px) {
+    .logo {
+        width: 200px;
+    }
+
+    img {
+        width: 500px;
+    }
+    .content {
+        height: auto;
+    }
+
+}
