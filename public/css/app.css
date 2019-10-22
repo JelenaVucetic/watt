@@ -40,7 +40,9 @@ html.is-animating .transition-wipe {
 }
 
 
-
+.hiltonimg {
+    width: 800px;
+}
 
 .main {
     display: flex;
@@ -133,47 +135,65 @@ html.is-animating .transition-wipe {
 }
 
 
+/* @media(max-width: 1500px) {
+    .logo {
+        width: 200px;
+    }
+
+    img {
+        width: 800px;
+    }
+
+} */
+
+@media(max-width: 1200px) {
+    .logo {
+        width: 200px;
+    }
+
+    .hiltonimg {
+        width: 500px;
+    }
+    .content {
+        height: auto;
+    }
+}
 @media(max-width: 680px) {
     .myNavbar {
         display: none;
     }
 
     .content {
-        height: auto;
         overflow: hidden;
         padding: 20px;
     }
-    img {
+    .hiltonimg {
         width: 300px;
-        padding-left: 80px;
     }
     .hotel {
         width: 300px;     
     }
 
     .main {
-        margin-top: 100px;
+        margin-top: 30px;
     }
 
-
-}
-
-
-
-@media(max-width: 1500px) {
     .logo {
-        width: 200px;
+        width: 130px;
     }
 
-    img {
-        width: 500px;
-    }
-    .content {
-        height: auto;
-    }
 
 }
 
+@media(min-width: 1550px) {
+    .logo {
+        width: 300px;
+    }
+    .hiltonimg {
+        width: 950px;
+    }
+}
+ 
 
 
 

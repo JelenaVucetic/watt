@@ -22,7 +22,7 @@
 
             <div class="main">
                 <div>
-                    <img src="/images/Hilton-PNG.png" alt="">
+                    <img class="hiltonimg" src="/images/Hilton-PNG.png" alt="">
                 </div>
 
                 <div class="right">
@@ -44,7 +44,7 @@
                             sistem rasvjete kako u  enterijeru, tako i u bašti hotela.
                         </p>
                     </div>
-                    <a href=""><img class="scrollbtn" src="/images/Scroll.svg" alt=""> <span> Pogledaj detaljnije</span></a>
+                    <a href=""><img class="scrollbtn" src="/images/Scroll.svg" alt=""> <span> Pogledaj detaljnije</span>    </a>
                 </div>
             </div>
         </div>
